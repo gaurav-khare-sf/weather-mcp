@@ -1,1 +1,2 @@
 
+import "./weather-mcp.mjs";
