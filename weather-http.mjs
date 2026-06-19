@@ -69,7 +69,7 @@ app.post("/mcp", async (req, res) => {
 });
 
 app.get("/", (req, res) => {
-  res.send("Weather MCP HTTP Server Running");
+  res.send("Weather MCP HTTP Server Running V2 - Gaurav");
 });
 
 const PORT = process.env.PORT || 3000;
