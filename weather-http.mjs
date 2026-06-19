@@ -51,7 +51,9 @@ server.tool(
     };
   }
 );
-
+app.get("/mcp", (req, res) => {
+  res.send("MCP endpoint reachable");
+});
 app.post("/mcp", async (req, res) => {
 
   const transport = new StreamableHTTPServerTransport({
