@@ -5,7 +5,7 @@
   "type": "module",
   "main": "weather-mcp.mjs",
   "scripts": {
-    "start": "node weather-mcp.mjs"
+    "start": "node weather-http.mjs"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.29.0",
