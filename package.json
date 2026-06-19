@@ -1,15 +1,12 @@
 {
   "name": "weather-mcp",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Weather MCP Server",
+  "type": "module",
+  "main": "weather-mcp.mjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node weather-mcp.mjs"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.29.0",
     "axios": "^1.18.0",
