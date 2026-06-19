@@ -5,6 +5,12 @@ import { z } from "zod";
 import axios from "axios";
 
 const app = express();
+app.use((req, res, next) => {
+  console.log("METHOD:", req.method);
+  console.log("URL:", req.url);
+  console.log("BODY:", JSON.stringify(req.body));
+  next();
+});
 app.use(express.json());
 
 const server = new McpServer({
